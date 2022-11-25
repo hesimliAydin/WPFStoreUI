@@ -1,0 +1,343 @@
+﻿<Window x:Class="WPFStoreUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFStoreUI"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="850"
+        Width="1600"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        WindowStyle="None">
+    <Grid Background="Azure">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Canvas Grid.Row="0">
+            <Border Width="150"
+                    Height="40"
+                    CornerRadius="20"
+                    Background="#000000"
+                    Canvas.Left="70"
+                    Canvas.Top="100"
+                    BorderThickness="0">
+                <Button Style="{StaticResource StackOverFlow}" Content="All Brands"/>
+
+            </Border>
+
+            <Border Width="150"
+                    Height="40"
+                    CornerRadius="20"
+                    Canvas.Left="260"
+                    Canvas.Top="100">
+                <Button Style="{StaticResource StackOverFlow2 }" Content="Federal Bikes"/>
+
+            </Border>
+
+            <Border Width="150"
+                    Height="40"
+                    CornerRadius="20"
+                    Canvas.Left="450"
+                    Canvas.Top="100">
+                <Button  Style="{StaticResource StackOverFlow2}" Content="People" />
+            </Border>
+
+            <Border Width="100"
+                    Height="40"
+                    Canvas.Left="640"
+                    Canvas.Top="100">
+                <Button Style="{StaticResource StackOverFlow2}" Content="Fiend"/>
+            </Border>
+
+            <Border Width="90"
+                    Height="40"
+                    Canvas.Left="780"
+                    Canvas.Top="100">
+                <Button Style="{StaticResource StackOverFlow2}" Content="Cult"/>
+            </Border>
+
+            <Border Width="110"
+                    Height="40"
+                    Canvas.Left="920"
+                    Canvas.Top="100">
+                <Button Style="{StaticResource StackOverFlow2}" Content="Odysses"/>
+            </Border>
+
+            <Image Canvas.Left="1050"
+                   Canvas.Top="105"
+                   Source="/icons8-menu-24.png"/>
+
+            <Border Canvas.Right="50"
+                    Width="350"
+                    Height="40"
+                    Canvas.Top="100"
+                    Background="White"
+                    BorderThickness="0"
+                    CornerRadius="20">
+                <Canvas>
+                    <TextBlock Text="Search"
+                               FontSize="15"
+                               Canvas.Left="30"
+                               Canvas.Top="12"
+                               FontFamily="Georgia"
+                               FontStyle="Italic"
+                               Foreground="Black"
+                               MouseEnter="TextBlock_MouseEnter"
+                               MouseLeave="searchTb_MouseLeave"
+                               Name="searchTb"/>
+                    <Button Canvas.Right="30"
+                            Canvas.Top="10"
+                            Width="20"
+                            Height="20"
+                            BorderThickness="0"
+                            Background="Transparent">
+                        <Image Source="/icons8-search-30.png"/>
+
+                    </Button>
+                </Canvas>
+                
+            </Border>
+
+            <Image Canvas.Left="65"
+                   Canvas.Top="30"
+                   Source="/icons8-horizontal-line-30.png"/>
+            <Image Canvas.Left="65"
+                   Canvas.Top="40"
+                   Source="/icons8-horizontal-line-30.png"/>
+            <Label Canvas.Left="105"
+                   Canvas.Top="35"
+                   Content="Shop"
+                   FontSize="20"
+                   FontStyle="Italic"
+                   FontFamily="Georgia"
+                   Foreground="Black"
+                   FontWeight="ExtraBlack"/>
+        </Canvas>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="950"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Canvas Grid.Column="0" x:Name="menuCanvas">
+                <Button Canvas.Top="40"
+                        Canvas.Right="24"
+                        Content="Products"
+                        Background="Transparent"
+                        FontSize="20"
+                        FontWeight="ExtraBlack"
+                        FontStyle="Italic"
+                        FontFamily="Georgia"
+                        BorderThickness="0">
+
+
+                </Button>
+                <Button Canvas.Top="100"
+                        Canvas.Right="83"
+                        Content="All"
+                        Background="Transparent"
+                        FontSize="20"
+                        FontWeight="ExtraBlack"
+                        FontStyle="Italic"
+                        FontFamily="Georgia"
+                        BorderThickness="0">
+
+
+
+                </Button>
+
+                <Button Canvas.Top="160"
+                        Canvas.Right="59"
+                        Content="Bikes"
+                        Background="Transparent"
+                        FontSize="20"
+                        FontWeight="ExtraBlack"
+                        FontFamily="Georgia"
+                        FontStyle="Italic"
+                        BorderThickness="0">
+
+
+                </Button>
+                <Button Canvas.Top="220"
+                        Canvas.Right="41"
+                        Content="Frames"
+                        Background="Transparent"
+                        FontSize="20"
+                        FontWeight="ExtraBlack"
+                        FontStyle="Italic"
+                        FontFamily="Georgia"
+                        BorderThickness="0">
+
+
+
+                </Button>
+                <Button Canvas.Top="280"
+                        Canvas.Right="42"
+                        Content="Wheels"
+                        Background="Transparent"
+                        FontSize="20"
+                        FontWeight="ExtraBlack"
+                        FontStyle="Italic"
+                        FontFamily="Georgia"
+                        BorderThickness="0">
+
+
+
+                </Button>
+                <Button Canvas.Top="340"
+                        Canvas.Right="35"
+                        Content="Steering"
+                        Background="Transparent"
+                        FontSize="20"
+                        FontWeight="ExtraBlack"
+                        FontStyle="Italic"
+                        FontFamily="Georgia"
+                        BorderThickness="0">
+
+
+
+                </Button>
+                <Button Canvas.Top="400"
+                        Canvas.Right="35"
+                        Content="Clothing"
+                        Background="Transparent"
+                        FontSize="20"
+                        FontWeight="ExtraBlack"
+                        FontStyle="Italic"
+                        FontFamily="Georgia"
+                        BorderThickness="0">
+
+
+
+                </Button>
+                <Button Canvas.Top="460"
+                        Canvas.Right="67"
+                        Content="Misc"
+                        Background="Transparent"
+                        FontSize="20"
+                        FontWeight="ExtraBlack"
+                        FontStyle="Italic"
+                        FontFamily="Georgia"
+                        BorderThickness="0">
+
+
+
+                </Button>
+
+                <Button Canvas.Top="520"
+                        Canvas.Right="37"
+                        Content="Seating"
+                        Background="Transparent"
+                        FontSize="20"
+                        FontWeight="ExtraBlack"
+                        FontStyle="Italic"
+                        FontFamily="Georgia"
+                        BorderThickness="0">
+
+
+
+                </Button>
+
+            </Canvas>
+            <Canvas Grid.Column="1">
+                <Image Grid.Column="1"
+                       Source="/Storee_7.png"
+                       Width="870" Canvas.Top="10"
+                       Canvas.Left="50"/>
+                <Button Canvas.Top="195"
+                        Width="70"
+                        Height="30"
+                        Canvas.Left="92"
+                        Background="#E6EDEF"
+                        Content="Buy"
+                        FontSize="20"
+                        BorderThickness="0"
+                        FontWeight="Black"
+                        FontStyle="Italic"
+                        FontFamily="Georgia"
+                        >
+                    
+                </Button>
+
+                <WrapPanel Orientation="Horizontal"
+                           Name="mywrappanel"
+                           Grid.Column="1"
+                           Width="975"
+                           Canvas.Top="245"
+                           Canvas.Left="-30"/>
+            </Canvas>
+
+            <Canvas Grid.Column="2">
+                <Button Canvas.Left="220"
+                        Canvas.Top="150"
+                        Width="50"
+                        Height="50"
+                        Panel.ZIndex="10"
+                        Click="Button_Click"
+                        Background="Transparent"
+                        BorderThickness="0">
+
+                    <Image Source="/icons8-play-button-circled-64.png"/>
+
+                </Button>
+
+                <Border Canvas.Left="10"
+                        Canvas.Top="25"
+                        Width="auto"
+                        Height="auto"
+                        Margin="12,12,8,0"
+                        VerticalAlignment="Top"
+                        CornerRadius="18">
+
+                    <Border.Effect>
+                        <DropShadowEffect BlurRadius="5"
+                                          Opacity=".5"
+                                          ShadowDepth="3"
+                                          />
+                    </Border.Effect>
+
+                    <Border Name="ReceiverColor"
+                            BorderBrush="#FF96B2E4"
+                            BorderThickness="5"
+                            CornerRadius="15">
+
+                        <Grid>
+                            <Border Name="Mask"
+                                    Background="White"
+                                    BorderBrush="#FF3B5998"
+                                    BorderThickness=".5"
+                                    CornerRadius="13">
+                                
+                            </Border>
+
+                            <StackPanel>
+                                <Image Name="Reciever"
+                                       Source="/Moto.jpg"
+                                       Width="445"/>
+
+                                <StackPanel.OpacityMask>
+                                    <VisualBrush Visual="{Binding ElementName=Mask}"/>
+                                </StackPanel.OpacityMask>
+
+
+                            </StackPanel>
+                            
+                            
+                        </Grid>
+
+
+                    </Border>
+                    
+                </Border>
+                <WrapPanel Orientation="Horizontal" Name="mywrappanel2" Width="495" Canvas.Top="245" Canvas.Left="-50"/>
+
+            </Canvas>
+        </Grid>
+
+    </Grid>
+</Window>

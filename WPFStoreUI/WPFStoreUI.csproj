@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Bike.jpg" />
+    <None Remove="icons8-horizontal-line-30.png" />
+    <None Remove="icons8-menu-24.png" />
+    <None Remove="icons8-play-button-circled-64.png" />
+    <None Remove="icons8-plus-48.png" />
+    <None Remove="icons8-search-30.png" />
+    <None Remove="Moto.jpg" />
+    <None Remove="Storee_7.png" />
+    <None Remove="Store_3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Bike.jpg" />
+    <Resource Include="icons8-horizontal-line-30.png" />
+    <Resource Include="icons8-menu-24.png" />
+    <Resource Include="icons8-play-button-circled-64.png" />
+    <Resource Include="icons8-plus-48.png" />
+    <Resource Include="icons8-search-30.png" />
+    <Resource Include="Moto.jpg" />
+    <Resource Include="Storee_7.png" />
+    <Resource Include="Store_3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
+
+</Project>
