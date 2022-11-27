@@ -278,7 +278,7 @@
                         Width="50"
                         Height="50"
                         Panel.ZIndex="10"
-                        Click="Button_Click"
+                        
                         Background="Transparent"
                         BorderThickness="0">
 
@@ -318,7 +318,7 @@
                             <StackPanel>
                                 <Image Name="Reciever"
                                        Source="/Moto.jpg"
-                                       Width="445"/>
+                                       Width="400"/>
 
                                 <StackPanel.OpacityMask>
                                     <VisualBrush Visual="{Binding ElementName=Mask}"/>
