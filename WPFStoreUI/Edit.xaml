@@ -1,0 +1,68 @@
+﻿<Window x:Class="WPFStoreUI.Edit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFStoreUI"
+        mc:Ignorable="d"
+        Title="Edit" Height="300" Width="250">
+    <StackPanel>
+        <Ellipse Width="100"
+                 Height="75">
+            <Ellipse.Fill>
+                <ImageBrush x:Name="Product_image"/>
+            </Ellipse.Fill>
+            
+        </Ellipse>
+
+        <Label
+            Margin="10"
+            Name="ProductName"
+            Content="Name"
+            HorizontalAlignment="Center"
+            FontSize="18"
+            FontFamily="Georgia"
+            FontStyle="Italic"/>
+
+        <StackPanel Orientation="Horizontal"
+                    Margin="5"
+                    >
+            <Label Margin="10"
+                   FontStyle="Italic"
+                   FontFamily="Georgia"
+                Content="Price"
+                   FontSize="18"
+                   
+                   />
+
+            <TextBox Name="ProductPrize"
+                     Background="Transparent"
+                     FontSize="16"
+                     Width="100"
+                     Margin="10"
+                     FontWeight="Medium"
+                     Foreground="Black">
+                
+            </TextBox>
+
+            
+        </StackPanel>
+
+        <Button Name="editButton"
+                    VerticalAlignment="Center"
+                    BorderThickness="0"
+                    Width="50"
+                    Height="50"
+                Click="addStore"
+                    Background="Transparent"
+                    Cursor="Hand"
+                    FontStyle="Italic"
+                    FontWeight="Bold"
+                    FontFamily="Georgia"
+                    Margin="10"
+                    Content="Edit"
+                    HorizontalAlignment="Center">
+
+        </Button>
+    </StackPanel>
+</Window>
