@@ -29,7 +29,7 @@ namespace WPFStoreUI
         {
             InitializeComponent();
             this.DataContext = this;
-            Product = product;
+            this.Product = product;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

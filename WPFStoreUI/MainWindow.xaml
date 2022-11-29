@@ -69,7 +69,7 @@
 
             <Image Canvas.Left="1050"
                    Canvas.Top="105"
-                   Source="/icons8-menu-24.png"/>
+                   Source="/Image/icons8-menu-24.png"/>
 
             <Border Canvas.Right="50"
                     Width="350"
@@ -95,7 +95,7 @@
                             Height="20"
                             BorderThickness="0"
                             Background="Transparent">
-                        <Image Source="/icons8-search-30.png"/>
+                        <Image Source="/Image/icons8-search-30.png"/>
 
                     </Button>
                 </Canvas>
@@ -104,10 +104,10 @@
 
             <Image Canvas.Left="65"
                    Canvas.Top="30"
-                   Source="/icons8-horizontal-line-30.png"/>
+                   Source="/Image/icons8-horizontal-line-30.png"/>
             <Image Canvas.Left="65"
                    Canvas.Top="40"
-                   Source="/icons8-horizontal-line-30.png"/>
+                   Source="/Image/icons8-horizontal-line-30.png"/>
             <Label Canvas.Left="105"
                    Canvas.Top="35"
                    Content="Shop"
@@ -246,7 +246,7 @@
             </Canvas>
             <Canvas Grid.Column="1">
                 <Image Grid.Column="1"
-                       Source="/Storee_7.png"
+                       Source="/Image/Storee_7.png"
                        Width="870"
                        Canvas.Top="10"
                        Canvas.Left="50"/>
@@ -283,7 +283,7 @@
                         Background="Transparent"
                         BorderThickness="0">
 
-                    <Image Source="/icons8-play-button-circled-64.png"/>
+                    <Image Source="/Image/icons8-play-button-circled-64.png"/>
 
                 </Button>
 
@@ -318,7 +318,7 @@
 
                             <StackPanel>
                                 <Image Name="Reciever"
-                                       Source="/Moto.jpg"
+                                       Source="Image/Moto.jpg"
                                        Width="400"/>
 
                                 <StackPanel.OpacityMask>

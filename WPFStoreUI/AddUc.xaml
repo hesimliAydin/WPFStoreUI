@@ -43,7 +43,7 @@
 
                 <Border CornerRadius="20" Background="White" Width="30" Height="30" >
                     <Button Background="Transparent" BorderThickness="0" Click="Button_Click">
-                        <Image Source="/icons8-plus-48.png"/>
+                        <Image Source="/Image/icons8-plus-48.png"/>
                     </Button>
                 </Border>
 

@@ -20,15 +20,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Bike.jpg" />
-    <Resource Include="icons8-horizontal-line-30.png" />
-    <Resource Include="icons8-menu-24.png" />
-    <Resource Include="icons8-play-button-circled-64.png" />
-    <Resource Include="icons8-plus-48.png" />
-    <Resource Include="icons8-search-30.png" />
-    <Resource Include="Moto.jpg" />
-    <Resource Include="Storee_7.png" />
-    <Resource Include="Store_3.png" />
+    <Resource Include="Image\Bike.jpg" />
+    <Resource Include="Image\icons8-horizontal-line-30.png" />
+    <Resource Include="Image\icons8-menu-24.png" />
+    <Resource Include="Image\icons8-play-button-circled-64.png" />
+    <Resource Include="Image\icons8-plus-48.png" />
+    <Resource Include="Image\icons8-search-30.png" />
+    <Resource Include="Image\Moto.jpg" />
+    <Resource Include="Image\Storee_7.png" />
   </ItemGroup>
 
 </Project>
