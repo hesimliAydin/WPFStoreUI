@@ -31,8 +31,4 @@
     <Resource Include="Store_3.png" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Image\" />
-  </ItemGroup>
-
 </Project>

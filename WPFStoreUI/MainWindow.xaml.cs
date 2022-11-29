@@ -54,13 +54,13 @@ namespace WPFStoreUI
                 {
                     Name="SSD",
                     Price=180,
-                    Image="/Image/ssd.jpg"
+                    Image="../../../Image/ssd.jpg"
                 },
                 new Product
                 {
                     Name="Ram",
                     Price=100,
-                    Image="/Image/ram.jpg"
+                    Image="../../../Image/ram.jpg"
                 }
             };
 

@@ -247,7 +247,8 @@
             <Canvas Grid.Column="1">
                 <Image Grid.Column="1"
                        Source="/Storee_7.png"
-                       Width="870" Canvas.Top="10"
+                       Width="870"
+                       Canvas.Top="10"
                        Canvas.Left="50"/>
                 <Button Canvas.Top="195"
                         Width="70"
