@@ -54,7 +54,7 @@ namespace WPFStoreUI
                 {
                     Name="SSD",
                     Price=180,
-                    Image="Image/sssd.jpg"
+                    Image="../../../Image/sssd.jpg"
                 },
                 new Product
                 {
@@ -70,42 +70,42 @@ namespace WPFStoreUI
                 {
                     Name="Benotto",
                     Price=100,
-                    Image="/Image/benetto.jpg"
+                    Image="../../../Image/benetto.jpg"
                 },
 
                 new Product
                 {
                     Name="Merkuri",
                     Price=150,
-                    Image="/Image/merkuri.jpg"
+                    Image="../../../Image/merkuri.jpg"
                 },
 
                 new Product
                 {
                     Name="Huffy",
                     Price=120,
-                    Image="/Image/huffy.jpg"
+                    Image="../../../Image/huffy.jpg"
                 },
 
                 new Product
                 {
                     Name="RoyalBaby",
                     Price=345,
-                    Image="/Image/royal.jpg"
+                    Image="../../../Image/royal.jpg"
                 },
 
                 new Product
                 {
                     Name="Benotto",
                     Price=100,
-                    Image="/Image/benetto2.jpg"
+                    Image="../../../Image/benetto2.jpg"
                 },
 
                 new Product
                 {
                     Name="RoyalBaby",
                     Price=400,
-                    Image="/Image/royal2.jpg"
+                    Image="../../../Image/royal2.jpg"
                 },
             };
 
@@ -134,6 +134,9 @@ namespace WPFStoreUI
                 searchTb.Text = "Search";
         }
 
-        
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

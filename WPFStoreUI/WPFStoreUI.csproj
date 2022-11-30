@@ -8,19 +8,27 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Bike.jpg" />
+    <None Remove="benetto.jpg" />
+    <None Remove="benetto2.jpg" />
+    <None Remove="huffy.jpg" />
     <None Remove="icons8-horizontal-line-30.png" />
     <None Remove="icons8-menu-24.png" />
     <None Remove="icons8-play-button-circled-64.png" />
     <None Remove="icons8-plus-48.png" />
     <None Remove="icons8-search-30.png" />
-    <None Remove="Moto.jpg" />
+    <None Remove="merkuri.jpg" />
     <None Remove="ram.jpg" />
+    <None Remove="royal.jpg" />
+    <None Remove="royal2.jpg" />
+    <None Remove="sssd.jpg" />
     <None Remove="Storee_7.png" />
     <None Remove="Store_3.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Image\benetto.jpg" />
+    <Resource Include="Image\benetto2.jpg" />
+    <Resource Include="Image\huffy.jpg" />
     <Resource Include="Image\Bike.jpg" />
     <Resource Include="Image\icons8-horizontal-line-30.png" />
     <Resource Include="Image\icons8-menu-24.png" />
@@ -30,6 +38,10 @@
     <Resource Include="Image\Moto.jpg" />
     <Resource Include="Image\Storee_7.png" />
     <Resource Include="Image\ram.jpg" />
+    <Resource Include="Image\merkuri.jpg" />
+    <Resource Include="Image\royal.jpg" />
+    <Resource Include="Image\royal2.jpg" />
+    <Resource Include="Image\sssd.jpg" />
   </ItemGroup>
 
 </Project>
