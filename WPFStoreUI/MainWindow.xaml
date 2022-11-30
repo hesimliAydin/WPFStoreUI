@@ -320,6 +320,7 @@
                                 <Image Name="Reciever"
                                        Source="Image/Moto.jpg"
                                        Width="400"/>
+                                
 
                                 <StackPanel.OpacityMask>
                                     <VisualBrush Visual="{Binding ElementName=Mask}"/>

@@ -60,7 +60,7 @@ namespace WPFStoreUI
                 {
                     Name="Ram",
                     Price=100,
-                    Image="Image/ram.jpg"
+                    Image="../../../Image/ram.jpg"
                 }
             };
 

@@ -29,12 +29,14 @@ namespace WPFStoreUI
         {
             InitializeComponent();
             this.DataContext = this;
-            this.Product = product;
+            Product = product;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var product =sender as Product;
+            Edit edit = new Edit();
+            edit.ShowDialog();
+            
 
             
         }

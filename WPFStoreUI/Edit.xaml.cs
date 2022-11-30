@@ -29,6 +29,11 @@ namespace WPFStoreUI
             Prroduct = p;
         }
 
+        public Edit()
+        {
+
+        }
+
         private void addStore(object sender, RoutedEventArgs e)
         {
             try
