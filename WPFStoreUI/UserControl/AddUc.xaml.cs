@@ -34,7 +34,7 @@ namespace WPFStoreUI
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Edit edit = new Edit();
+            Edit edit = new Edit(Product);
             edit.Show();
             
 

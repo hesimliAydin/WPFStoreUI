@@ -20,25 +20,23 @@ namespace WPFStoreUI
     /// </summary>
     public partial class Edit : Window
     {
-        public Product Prroduct { get; set; }
+        public Product Product { get; set; }
 
         public Edit(Product p)
         {
             InitializeComponent();
-            Prroduct = new Product();
-            Prroduct = p;
+            this.DataContext = this;
+            Product = new Product();
+            Product = p;
         }
 
-        public Edit()
-        {
-
-        }
+        
 
         private void addStore(object sender, RoutedEventArgs e)
         {
             try
             {
-                Prroduct.Price = double.Parse(ProductPrize.Text);
+                Product.Price = double.Parse(ProductPrize.Text);
             }
             catch (Exception ex)
             {

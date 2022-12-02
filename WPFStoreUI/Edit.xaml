@@ -10,7 +10,8 @@
         <Ellipse Width="100"
                  Height="75">
             <Ellipse.Fill>
-                <ImageBrush x:Name="Product_image"/>
+                <ImageBrush x:Name="Product_image"
+                            ImageSource="{Binding Product.Image}"/>
             </Ellipse.Fill>
             
         </Ellipse>
@@ -18,8 +19,9 @@
         <Label
             Margin="10"
             Name="ProductName"
-            Content="Name"
+            
             HorizontalAlignment="Center"
+            Content="{Binding Product.Name}"
             FontSize="18"
             FontFamily="Georgia"
             FontStyle="Italic"/>
@@ -37,6 +39,7 @@
 
             <TextBox Name="ProductPrize"
                      Background="Transparent"
+                     Text="{Binding Product.Price}"
                      FontSize="16"
                      Width="100"
                      Margin="10"
