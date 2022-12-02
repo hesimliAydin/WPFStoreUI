@@ -44,7 +44,7 @@ namespace WPFStoreUI
                 
             }
 
-            DialogResult = true;
+            Close();
         }
     }
 }
